@@ -1,0 +1,48 @@
+body{
+            font-family: Times, Times New Roman, serif;
+            font_size: 16px;
+}
+
+.container{
+            display: flex;
+            justify-content: space-between;
+}
+
+.card {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin: 10px;
+            background-color: orange;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 20px;
+}
+.photo {
+            padding-top: 20px;
+            text-align: center;
+
+}
+
+img {
+            width: 70%;
+}
+
+div img:hover{
+             position: absolute;
+             width: 600px;
+             transition: 1.5s;
+             z-index: 1;
+
+}
+
+.info {
+           margin: 0 auto;
+           box-sizing: border-box;
+           text-align: left;
+           margin-top: auto;
+}
+
+.name {
+        font-weight: 700;
+}
